@@ -1,0 +1,328 @@
+Results folder is results_randoop_10
+results randoop 10
+results
+TOOLNAME=randoop
+BUDGET=10
+Searching folders in directory results_randoop_10
+=========================================
+Folder results_randoop_10/BCEL-1_1 was found
+FolderName=BCEL-1_1
+SUT_ID=BCEL-1
+RUN_ID=1
+TESTCASES_FOLDER=results_randoop_10/BCEL-1_1/temp/testcases
+Executing metrics computation using contest_run_benchmark_tool.sh randoop BCEL-1 . 1 10 --only-compute-metrics results_randoop_10/BCEL-1_1/temp/testcases
+---------
+SBST-Contest
+---------
+
+>>> TOOL NAME:  randoop
+
+>>> BENCHMARK:  BCEL-1
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: org.apache.bcel.classfile.Utility
+
+---Compilation---
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+Method coverage = 0.0
+Line coverage = 0.0
+Branch coverage = 0.0
+Complexity coverage = 0.0
+
+=== Run PIT ===
+Could not calculate mutation metrics!
+Time for mutation analysis = 4
+
+>>> RESULTS:
+	Tool name: randoop
+	Benchmark: BCEL-1
+	Class Under Test: org.apache.bcel.classfile.Utility
+	Run number: 1
+	Tool preparation time (ms): 29
+	Tool test cases generation time (ms): 1106
+	Test cases execution time (ms): 5
+	Test case number: 0
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 498
+	Lines covered: 0
+	Lines coverage ratio (%): 0.0
+	Conditions total: 296
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 0
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 0
+Copying transcript file transcript.csv to folder results_randoop_10/BCEL-1_1
+Moving working folders and log files
+Processing of folder results_randoop_10/BCEL-1_1 has finished
+=========================================
+Folder results_randoop_10/BCEL-2_1 was found
+FolderName=BCEL-2_1
+SUT_ID=BCEL-2
+RUN_ID=1
+TESTCASES_FOLDER=results_randoop_10/BCEL-2_1/temp/testcases
+Executing metrics computation using contest_run_benchmark_tool.sh randoop BCEL-2 . 1 10 --only-compute-metrics results_randoop_10/BCEL-2_1/temp/testcases
+---------
+SBST-Contest
+---------
+
+>>> TOOL NAME:  randoop
+
+>>> BENCHMARK:  BCEL-2
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: org.apache.bcel.verifier.structurals.InstConstraintVisitor
+
+---Compilation---
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest0.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest1.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest10.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest100.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest101.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest102.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest103.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest11.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest12.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest13.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest14.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest15.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest16.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest17.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest18.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest19.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest2.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest20.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest21.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest22.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest23.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest24.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest25.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest26.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest27.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest28.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest29.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest3.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest30.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest31.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest32.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest33.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest34.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest35.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest36.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest37.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest38.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest39.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest4.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest40.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest41.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest42.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest43.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest44.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest45.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest46.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest47.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest48.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest49.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest5.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest50.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest51.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest52.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest53.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest54.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest55.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest56.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest57.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest58.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest59.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest6.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest60.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest61.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest62.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest63.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest64.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest65.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest66.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest67.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest68.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest69.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest7.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest70.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest71.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest72.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest73.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest74.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest75.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest76.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest77.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest78.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest79.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest8.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest80.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest81.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest82.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest83.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest84.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest85.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest86.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest87.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest88.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest89.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest9.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest90.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest91.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest92.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest93.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest94.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest95.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest96.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest97.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest98.java'
+Compiled 'org/apache/bcel/verifier/structurals/RegressionTest99.java'
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+Method coverage = 0.1787709497206704
+Line coverage = 0.03531598513011153
+Branch coverage = 0.0
+Complexity coverage = 0.0564373897707231
+
+=== Run PIT ===
+Executing Mutation Analysis using 243 mutants 
+Time for mutation analysis = 844
+
+>>> RESULTS:
+	Tool name: randoop
+	Benchmark: BCEL-2
+	Class Under Test: org.apache.bcel.verifier.structurals.InstConstraintVisitor
+	Run number: 1
+	Tool preparation time (ms): 24
+	Tool test cases generation time (ms): 17539
+	Test cases execution time (ms): 878
+	Test case number: 10341
+	Uncompilable Test Classes: 0
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 1076
+	Lines covered: 38
+	Lines coverage ratio (%): 3.5315986
+	Conditions total: 776
+	Conditions covered: 0
+	Conditions coverage ratio (%): 0.0
+	Mutants total: 243
+	Mutants covered: 0
+	Mutants coverage ratio (%): 0.0
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 243
+Copying transcript file transcript.csv to folder results_randoop_10/BCEL-2_1
+Moving working folders and log files
+Processing of folder results_randoop_10/BCEL-2_1 has finished
+=========================================
+Folder results_randoop_10/BCEL-3_1 was found
+FolderName=BCEL-3_1
+SUT_ID=BCEL-3
+RUN_ID=1
+TESTCASES_FOLDER=results_randoop_10/BCEL-3_1/temp/testcases
+Executing metrics computation using contest_run_benchmark_tool.sh randoop BCEL-3 . 1 10 --only-compute-metrics results_randoop_10/BCEL-3_1/temp/testcases
+---------
+SBST-Contest
+---------
+
+>>> TOOL NAME:  randoop
+
+>>> BENCHMARK:  BCEL-3
+
+>>> RUN NUMBER: 1
+
+>>> MODE: --only-compute-metrics
+
+
+### COMPUTING METRICS ###: org.apache.bcel.generic.ConstantPoolGen
+
+---Compilation---
+Failed to compile 'org/apache/bcel/generic/RegressionTest0.java'!
+Compiled 'org/apache/bcel/generic/RegressionTest1.java'
+Compiled 'org/apache/bcel/generic/RegressionTest10.java'
+Compiled 'org/apache/bcel/generic/RegressionTest11.java'
+Compiled 'org/apache/bcel/generic/RegressionTest12.java'
+Compiled 'org/apache/bcel/generic/RegressionTest13.java'
+Compiled 'org/apache/bcel/generic/RegressionTest14.java'
+Compiled 'org/apache/bcel/generic/RegressionTest15.java'
+Compiled 'org/apache/bcel/generic/RegressionTest16.java'
+Compiled 'org/apache/bcel/generic/RegressionTest17.java'
+Compiled 'org/apache/bcel/generic/RegressionTest18.java'
+Compiled 'org/apache/bcel/generic/RegressionTest19.java'
+Compiled 'org/apache/bcel/generic/RegressionTest2.java'
+Compiled 'org/apache/bcel/generic/RegressionTest20.java'
+Compiled 'org/apache/bcel/generic/RegressionTest21.java'
+Compiled 'org/apache/bcel/generic/RegressionTest22.java'
+Compiled 'org/apache/bcel/generic/RegressionTest3.java'
+Compiled 'org/apache/bcel/generic/RegressionTest4.java'
+Compiled 'org/apache/bcel/generic/RegressionTest5.java'
+Compiled 'org/apache/bcel/generic/RegressionTest6.java'
+Compiled 'org/apache/bcel/generic/RegressionTest7.java'
+Compiled 'org/apache/bcel/generic/RegressionTest8.java'
+Compiled 'org/apache/bcel/generic/RegressionTest9.java'
+
+---Timing Information---
+
+---The tests are re-executed other four times to find the flaky ones---
+
+=== Run Jacoco for Coverage ===
+Method coverage = 0.8536585365853658
+Line coverage = 0.8392857142857143
+Branch coverage = 0.7
+Complexity coverage = 0.6293103448275862
+
+=== Run PIT ===
+Executing Mutation Analysis using 163 mutants 
+Time for mutation analysis = 1149
+
+>>> RESULTS:
+	Tool name: randoop
+	Benchmark: BCEL-3
+	Class Under Test: org.apache.bcel.generic.ConstantPoolGen
+	Run number: 1
+	Tool preparation time (ms): 24
+	Tool test cases generation time (ms): 12719
+	Test cases execution time (ms): 290
+	Test case number: 2286
+	Uncompilable Test Classes: 1
+	Broken tests number: 0
+	Failing tests number: 0
+	Lines total: 280
+	Lines covered: 235
+	Lines coverage ratio (%): 83.92857
+	Conditions total: 140
+	Conditions covered: 98
+	Conditions coverage ratio (%): 70.0
+	Mutants total: 163
+	Mutants covered: 141
+	Mutants coverage ratio (%): 86.50307
+	Mutants killed: 0
+	Mutants killed ratio (%): 0.0
+	Mutants alive: 163
+Copying transcript file transcript.csv to folder results_randoop_10/BCEL-3_1
+Moving working folders and log files
+Processing of folder results_randoop_10/BCEL-3_1 has finished

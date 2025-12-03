@@ -26,3 +26,6 @@ Thumbs.db
 # Generated website
 _site/
 Gemfile.lock
+
+# Ignore results
+tools/*/results_*

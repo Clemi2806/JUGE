@@ -6,9 +6,15 @@ RUN apt-get update
 RUN apt-get install -y openjdk-8-jdk
 RUN apt-get install -y unzip
 RUN apt-get install -y vim
+RUN apt-get install -y wget
 
-# SMT Solver 
-RUN apt-get install -y cvc4
+# For Debug
+EXPOSE 1044
+
+# Install CVC4 manually
+RUN wget https://github.com/CVC4/CVC4-archived/releases/download/1.8/cvc4-1.8-x86_64-linux-opt \
+    && mv cvc4-1.8-x86_64-linux-opt /usr/local/bin/cvc4 \
+    && chmod +x /usr/local/bin/cvc4
 
 # Copy the utility scripts to run the infrastructure
 COPY infrastructure/scripts/ /usr/local/bin/

@@ -46,6 +46,7 @@
         <module>manual_runtool</module>
         <module>jcrasher_runtool</module>
         <module>shaded</module>
+        <module>evosuite_pbt_runtool</module>
     </modules>
 
     <dependencyManagement>

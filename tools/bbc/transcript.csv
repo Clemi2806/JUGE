@@ -1,0 +1,6 @@
+tool,benchmark,class,run,preparationTime,generationTime,executionTime,testcaseNumber,uncompilableNumber,brokenTests,failTests,linesTotal,linesCovered,linesCoverageRatio,conditionsTotal,conditionsCovered,conditionsCoverageRatio,mutantsTotal,mutantsCovered,mutantsCoverageRatio,mutantsKilled,mutantsKillRatio,mutantsAlive,timeBudget,totalTestClasses
+bbc,BCEL-1,org.apache.bcel.classfile.Utility,1,127,14911,3934,325,0,2,0,498,357,71.686745,296,221,74.66216,165,124,75.15151,124,75.15151,41,10,2
+ 
+ 
+ 
+

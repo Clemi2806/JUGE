@@ -1,0 +1,35 @@
+* EvoSuite 1.1.1-SNAPSHOT
+* Going to generate test cases for class: org.apache.bcel.classfile.Utility
+* Starting Client-0
+* Connecting to master process on port 19965
+* Analyzing classpath: 
+  - /var/benchmarks/projects/bcel-6.0-src/target/classes
+  - /var/benchmarks/projects/bcel-6.0-src/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.bcel.classfile.Utility
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Total number of test goals for DYNAMOSA: 3329
+* Using seed 1763645809616
+* Starting evolution
+bbc usage percentage is: 50%
+* Initial Number of Goals in DynaMOSA = 1036 / 3329
+* Search finished after 11s and 53 generations, 29395 statements, best individual has fitness: 1186.0
+* Skipping minimization because not enough time is left
+* Generated 326 tests with total length 6253
+* Resulting test suite's coverage: 66% (average coverage for all fitness functions)
+* Generating assertions
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+* Writing tests to file
+* Writing JUnit test case 'Utility_ESTest' to temp/testcases
+* Done!
+
+* Computation finished

@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # switch to environment JVM as needed
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-arm64
 #JAVA_HOME=/usr
 JAVAC_CMD=$JAVA_HOME/bin/javac
 JAVA_CMD=$JAVA_HOME/bin/java
