@@ -98,14 +98,14 @@ public class RunTool {
 
         if ("READY".equals(line)) {
             listener.endPreprocess();
-            if (timeBudget != -1) {
-                channel.emit(timeBudget);
-            }
-
             if (generateTests) {
                 for (String cname : task.getClassNames()) {
                     Util.cleanDirectory(testcases);
                     Main.info("\n\n### CLASS UNDER TEST ###: " + cname);
+                    if (timeBudget != -1) {
+                        channel.emit(timeBudget);
+                    }
+
                     channel.emit(cname);
                     listener.startClass(cname);
                     if (this.timeBudget != -1) {

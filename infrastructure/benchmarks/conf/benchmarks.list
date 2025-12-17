@@ -1,38 +1,114 @@
 {
-BCEL-1=
-{
-  src=/var/benchmarks/projects/bcel-6.0-src/src/main/java
-  bin=/var/benchmarks/projects/bcel-6.0-src/target/classes
-  classes=(
-    org.apache.bcel.classfile.Utility
-  )
-
-  classpath=(
-    /var/benchmarks/projects/bcel-6.0-src/target/classes
-  )
-}
-BCEL-2=
-{
-  src=/var/benchmarks/projects/bcel-6.0-src/src/main/java
-  bin=/var/benchmarks/projects/bcel-6.0-src/target/classes
-  classes=(
-    org.apache.bcel.verifier.structurals.InstConstraintVisitor
-  )
-
-  classpath=(
-    /var/benchmarks/projects/bcel-6.0-src/target/classes
-  )
-}
-BCEL-3=
-{
-  src=/var/benchmarks/projects/bcel-6.0-src/src/main/java
-  bin=/var/benchmarks/projects/bcel-6.0-src/target/classes
-  classes=(
-    org.apache.bcel.generic.ConstantPoolGen
-  )
-
-  classpath=(
-    /var/benchmarks/projects/bcel-6.0-src/target/classes
-  )
-}
+    pow = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.pow.test.Eq.newV, benchmarks.pow.test.Eq.oldV, benchmarks.pow.test.Neq.newV, benchmarks.pow.test.Neq.oldV );
+    }
+    ej_hash = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.ej_hash.testCollision1.Eq.newV, benchmarks.ej_hash.testCollision1.Eq.oldV, benchmarks.ej_hash.testCollision1.Neq.newV, benchmarks.ej_hash.testCollision1.Neq.oldV, benchmarks.ej_hash.ej_hash.Eq.newV, benchmarks.ej_hash.ej_hash.Eq.oldV, benchmarks.ej_hash.ej_hash.Neq.newV, benchmarks.ej_hash.ej_hash.Neq.oldV, benchmarks.ej_hash.hashCode.Eq.newV, benchmarks.ej_hash.hashCode.Eq.oldV, benchmarks.ej_hash.hashCode.Neq.newV, benchmarks.ej_hash.hashCode.Neq.oldV, benchmarks.ej_hash.testCollision2.Eq.newV, benchmarks.ej_hash.testCollision2.Eq.oldV, benchmarks.ej_hash.testCollision2.Neq.newV, benchmarks.ej_hash.testCollision2.Neq.oldV, benchmarks.ej_hash.testCollision4.Eq.newV, benchmarks.ej_hash.testCollision4.Eq.oldV, benchmarks.ej_hash.testCollision4.Neq.newV, benchmarks.ej_hash.testCollision4.Neq.oldV, benchmarks.ej_hash.testCollision3.Eq.newV, benchmarks.ej_hash.testCollision3.Eq.oldV, benchmarks.ej_hash.testCollision3.Neq.newV, benchmarks.ej_hash.testCollision3.Neq.oldV );
+    }
+    statcalc = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.statcalc.addValue.Eq.newV, benchmarks.statcalc.addValue.Eq.oldV, benchmarks.statcalc.addValue.Neq.newV, benchmarks.statcalc.addValue.Neq.oldV );
+    }
+    dart = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.dart.test.Eq.newV, benchmarks.dart.test.Eq.oldV, benchmarks.dart.test.Neq.newV, benchmarks.dart.test.Neq.oldV );
+    }
+    optimization = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.optimization.wood.Eq.newV, benchmarks.optimization.wood.Eq.oldV, benchmarks.optimization.wood.Neq.newV, benchmarks.optimization.wood.Neq.oldV, benchmarks.optimization.optimization.Eq.newV, benchmarks.optimization.optimization.Eq.oldV, benchmarks.optimization.optimization.Neq.newV, benchmarks.optimization.optimization.Neq.oldV );
+    }
+    sine = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.sine.mysin.Eq.newV, benchmarks.sine.mysin.Eq.oldV, benchmarks.sine.mysin.Neq.newV, benchmarks.sine.mysin.Neq.oldV );
+    }
+    airy = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.airy..DS_Store, benchmarks.airy.airy..DS_Store, benchmarks.airy.MAX..DS_Store, benchmarks.airy.sphbes.Eq.newV, benchmarks.airy.sphbes.Eq.oldV, benchmarks.airy.sphbes.Neq.newV, benchmarks.airy.sphbes.Neq.oldV, benchmarks.airy.beschb.Eq.newV, benchmarks.airy.beschb.Eq.oldV, benchmarks.airy.beschb.Neq.newV, benchmarks.airy.beschb.Neq.oldV, benchmarks.airy.airy.Eq.newV, benchmarks.airy.airy.Eq.oldV, benchmarks.airy.airy.Neq.newV, benchmarks.airy.airy.Neq.oldV, benchmarks.airy.MAX.Eq.newV, benchmarks.airy.MAX.Eq.oldV, benchmarks.airy.MAX.Neq.newV, benchmarks.airy.MAX.Neq.oldV, benchmarks.airy.chebev_c1d.Eq.newV, benchmarks.airy.chebev_c1d.Eq.oldV, benchmarks.airy.chebev_c1d.Neq.newV, benchmarks.airy.chebev_c1d.Neq.oldV, benchmarks.airy.Sign.Eq.newV, benchmarks.airy.Sign.Eq.oldV, benchmarks.airy.Sign.Neq.newV, benchmarks.airy.Sign.Neq.oldV );
+    }
+    CLEVER = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.CLEVER.is_prime3.Eq.newV, benchmarks.CLEVER.is_prime3.Eq.oldV, benchmarks.CLEVER.is_prime2.Eq.newV, benchmarks.CLEVER.is_prime2.Eq.oldV, benchmarks.CLEVER.LoopMult2.Eq.newV, benchmarks.CLEVER.LoopMult2.Eq.oldV, benchmarks.CLEVER.LoopMult2.Neq.newV, benchmarks.CLEVER.LoopMult2.Neq.oldV, benchmarks.CLEVER.LoopMult5.Eq.newV, benchmarks.CLEVER.LoopMult5.Eq.oldV, benchmarks.CLEVER.LoopMult5.Neq.newV, benchmarks.CLEVER.LoopMult5.Neq.oldV, benchmarks.CLEVER.multiple.Eq.newV, benchmarks.CLEVER.multiple.Eq.oldV, benchmarks.CLEVER.UnchLoop.Eq.newV, benchmarks.CLEVER.UnchLoop.Eq.oldV, benchmarks.CLEVER.UnchLoop.Neq.newV, benchmarks.CLEVER.UnchLoop.Neq.oldV, benchmarks.CLEVER.fib2.Neq.newV, benchmarks.CLEVER.fib2.Neq.oldV, benchmarks.CLEVER.LoopMult15.Eq.newV, benchmarks.CLEVER.LoopMult15.Eq.oldV, benchmarks.CLEVER.LoopMult15.Neq.newV, benchmarks.CLEVER.LoopMult15.Neq.oldV, benchmarks.CLEVER.LoopUnreach2.Eq.newV, benchmarks.CLEVER.LoopUnreach2.Eq.oldV, benchmarks.CLEVER.LoopUnreach2.Neq.newV, benchmarks.CLEVER.LoopUnreach2.Neq.oldV, benchmarks.CLEVER.LoopUnreach5.Eq.newV, benchmarks.CLEVER.LoopUnreach5.Eq.oldV, benchmarks.CLEVER.LoopUnreach5.Neq.newV, benchmarks.CLEVER.LoopUnreach5.Neq.oldV, benchmarks.CLEVER.LoopSub.Eq.newV, benchmarks.CLEVER.LoopSub.Eq.oldV, benchmarks.CLEVER.LoopSub.Neq.newV, benchmarks.CLEVER.LoopSub.Neq.oldV, benchmarks.CLEVER.divide.Eq.newV, benchmarks.CLEVER.divide.Eq.oldV, benchmarks.CLEVER.divide.Neq.newV, benchmarks.CLEVER.divide.Neq.oldV, benchmarks.CLEVER.oneBound.Eq.newV, benchmarks.CLEVER.oneBound.Eq.oldV, benchmarks.CLEVER.LoopUnreach15.Eq.newV, benchmarks.CLEVER.LoopUnreach15.Eq.oldV, benchmarks.CLEVER.LoopUnreach15.Neq.newV, benchmarks.CLEVER.LoopUnreach15.Neq.oldV, benchmarks.CLEVER.factorial.Eq.newV, benchmarks.CLEVER.factorial.Eq.oldV, benchmarks.CLEVER.factorial.Neq.newV, benchmarks.CLEVER.factorial.Neq.oldV, benchmarks.CLEVER.Comp.Eq.newV, benchmarks.CLEVER.Comp.Eq.oldV, benchmarks.CLEVER.odd.Eq.newV, benchmarks.CLEVER.odd.Eq.oldV, benchmarks.CLEVER.odd.Neq.newV, benchmarks.CLEVER.odd.Neq.oldV, benchmarks.CLEVER.Const.Eq.newV, benchmarks.CLEVER.Const.Eq.oldV, benchmarks.CLEVER.Sub.Eq.newV, benchmarks.CLEVER.Sub.Eq.oldV, benchmarks.CLEVER.is_prime1.Eq.newV, benchmarks.CLEVER.is_prime1.Eq.oldV, benchmarks.CLEVER.is_prime1.Neq.newV, benchmarks.CLEVER.is_prime1.Neq.oldV, benchmarks.CLEVER.pos.Eq.newV, benchmarks.CLEVER.pos.Eq.oldV, benchmarks.CLEVER.pos.Neq.newV, benchmarks.CLEVER.pos.Neq.oldV, benchmarks.CLEVER.Add.Eq.newV, benchmarks.CLEVER.Add.Eq.oldV, benchmarks.CLEVER.ltfive.Eq.newV, benchmarks.CLEVER.ltfive.Eq.oldV, benchmarks.CLEVER.fib.Eq.newV, benchmarks.CLEVER.fib.Eq.oldV, benchmarks.CLEVER.fib.Neq.newV, benchmarks.CLEVER.fib.Neq.oldV, benchmarks.CLEVER.oneN2.Eq.newV, benchmarks.CLEVER.oneN2.Eq.oldV, benchmarks.CLEVER.oneN2.Neq.newV, benchmarks.CLEVER.oneN2.Neq.oldV, benchmarks.CLEVER.LoopMult20.Eq.newV, benchmarks.CLEVER.LoopMult20.Eq.oldV, benchmarks.CLEVER.LoopMult20.Neq.newV, benchmarks.CLEVER.LoopMult20.Neq.oldV, benchmarks.CLEVER.LoopUnreach10.Eq.newV, benchmarks.CLEVER.LoopUnreach10.Eq.oldV, benchmarks.CLEVER.LoopUnreach10.Neq.newV, benchmarks.CLEVER.LoopUnreach10.Neq.oldV, benchmarks.CLEVER.LoopMult10.Eq.newV, benchmarks.CLEVER.LoopMult10.Eq.oldV, benchmarks.CLEVER.LoopMult10.Neq.newV, benchmarks.CLEVER.LoopMult10.Neq.oldV, benchmarks.CLEVER.LoopUnreach20.Eq.newV, benchmarks.CLEVER.LoopUnreach20.Eq.oldV, benchmarks.CLEVER.LoopUnreach20.Neq.newV, benchmarks.CLEVER.LoopUnreach20.Neq.oldV, benchmarks.CLEVER.getSign2.Eq.newV, benchmarks.CLEVER.getSign2.Eq.oldV, benchmarks.CLEVER.getSign2.Neq.newV, benchmarks.CLEVER.getSign2.Neq.oldV );
+    }
+    bess = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.bess..DS_Store, benchmarks.bess.bess..DS_Store, benchmarks.bess.bessi.Eq.newV, benchmarks.bess.bessi.Eq.oldV, benchmarks.bess.bessi.Neq.newV, benchmarks.bess.bessi.Neq.oldV, benchmarks.bess.pythag.Eq.newV, benchmarks.bess.pythag.Eq.oldV, benchmarks.bess.pythag.Neq.newV, benchmarks.bess.pythag.Neq.oldV, benchmarks.bess.bessy1.Eq.newV, benchmarks.bess.bessy1.Eq.oldV, benchmarks.bess.bessy1.Neq.newV, benchmarks.bess.bessy1.Neq.oldV, benchmarks.bess.bessy0.Eq.newV, benchmarks.bess.bessy0.Eq.oldV, benchmarks.bess.bessy0.Neq.newV, benchmarks.bess.bessy0.Neq.oldV, benchmarks.bess.probks.Eq.newV, benchmarks.bess.probks.Eq.oldV, benchmarks.bess.probks.Neq.newV, benchmarks.bess.probks.Neq.oldV, benchmarks.bess.bessk0.Eq.newV, benchmarks.bess.bessk0.Eq.oldV, benchmarks.bess.bessk0.Neq.newV, benchmarks.bess.bessk0.Neq.oldV, benchmarks.bess.SQR.Eq.newV, benchmarks.bess.SQR.Eq.oldV, benchmarks.bess.SQR.Neq.newV, benchmarks.bess.SQR.Neq.oldV, benchmarks.bess.bess.Eq.newV, benchmarks.bess.bess.Eq.oldV, benchmarks.bess.bess.Neq.newV, benchmarks.bess.bess.Neq.oldV, benchmarks.bess.dawson.Eq.newV, benchmarks.bess.dawson.Eq.oldV, benchmarks.bess.dawson.Neq.newV, benchmarks.bess.dawson.Neq.oldV, benchmarks.bess.bessk1.Eq.newV, benchmarks.bess.bessk1.Eq.oldV, benchmarks.bess.bessk1.Neq.newV, benchmarks.bess.bessk1.Neq.oldV, benchmarks.bess.bessi0.Eq.newV, benchmarks.bess.bessi0.Eq.oldV, benchmarks.bess.bessi0.Neq.newV, benchmarks.bess.bessi0.Neq.oldV, benchmarks.bess.bessj1.Eq.newV, benchmarks.bess.bessj1.Eq.oldV, benchmarks.bess.bessj1.Neq.newV, benchmarks.bess.bessj1.Neq.oldV, benchmarks.bess.bessj0.Eq.newV, benchmarks.bess.bessj0.Eq.oldV, benchmarks.bess.bessj0.Neq.newV, benchmarks.bess.bessj0.Neq.oldV, benchmarks.bess.bessi1.Eq.newV, benchmarks.bess.bessi1.Eq.oldV, benchmarks.bess.bessi1.Neq.newV, benchmarks.bess.bessi1.Neq.oldV, benchmarks.bess.bessj.Eq.newV, benchmarks.bess.bessj.Eq.oldV, benchmarks.bess.bessj.Neq.newV, benchmarks.bess.bessj.Neq.oldV, benchmarks.bess.bessk.Eq.newV, benchmarks.bess.bessk.Eq.oldV, benchmarks.bess.bessk.Neq.newV, benchmarks.bess.bessk.Neq.oldV, benchmarks.bess.bessy.Eq.newV, benchmarks.bess.bessy.Eq.oldV, benchmarks.bess.bessy.Neq.newV, benchmarks.bess.bessy.Neq.oldV, benchmarks.bess.SIGN.Eq.newV, benchmarks.bess.SIGN.Eq.oldV, benchmarks.bess.SIGN.Neq.newV, benchmarks.bess.SIGN.Neq.oldV );
+    }
+    ell = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.ell.elle.Eq.newV, benchmarks.ell.elle.Eq.oldV, benchmarks.ell.elle.Neq.newV, benchmarks.ell.elle.Neq.oldV, benchmarks.ell.plgndr.Eq.newV, benchmarks.ell.plgndr.Eq.oldV, benchmarks.ell.plgndr.Neq.newV, benchmarks.ell.plgndr.Neq.oldV, benchmarks.ell.ell.Eq.newV, benchmarks.ell.ell.Eq.oldV, benchmarks.ell.ell.Neq.newV, benchmarks.ell.ell.Neq.oldV, benchmarks.ell.rf.Eq.newV, benchmarks.ell.rf.Eq.oldV, benchmarks.ell.rf.Neq.newV, benchmarks.ell.rf.Neq.oldV, benchmarks.ell.ellProgram.Eq.newV, benchmarks.ell.ellProgram.Eq.oldV, benchmarks.ell.ellProgram.Neq.newV, benchmarks.ell.ellProgram.Neq.oldV, benchmarks.ell.dbrent.Eq.newV, benchmarks.ell.dbrent.Eq.oldV, benchmarks.ell.dbrent.Neq.newV, benchmarks.ell.dbrent.Neq.oldV, benchmarks.ell.ellpi.Eq.newV, benchmarks.ell.ellpi.Eq.oldV, benchmarks.ell.ellpi.Neq.newV, benchmarks.ell.ellpi.Neq.oldV, benchmarks.ell.sncndn.Eq.newV, benchmarks.ell.sncndn.Eq.oldV, benchmarks.ell.sncndn.Neq.newV, benchmarks.ell.sncndn.Neq.oldV, benchmarks.ell.brent.Eq.newV, benchmarks.ell.brent.Eq.oldV, benchmarks.ell.brent.Neq.newV, benchmarks.ell.brent.Neq.oldV, benchmarks.ell.rd.Eq.newV, benchmarks.ell.rd.Eq.oldV, benchmarks.ell.rd.Neq.newV, benchmarks.ell.rd.Neq.oldV, benchmarks.ell.rc.Eq.newV, benchmarks.ell.rc.Eq.oldV, benchmarks.ell.rc.Neq.newV, benchmarks.ell.rc.Neq.oldV, benchmarks.ell.rj.Eq.newV, benchmarks.ell.rj.Eq.oldV, benchmarks.ell.rj.Neq.newV, benchmarks.ell.rj.Neq.oldV, benchmarks.ell.zbrent.Eq.newV, benchmarks.ell.zbrent.Eq.oldV, benchmarks.ell.zbrent.Neq.newV, benchmarks.ell.zbrent.Neq.oldV );
+    }
+    caldat = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.caldat.julday.Eq.newV, benchmarks.caldat.julday.Eq.oldV, benchmarks.caldat.julday.Neq.newV, benchmarks.caldat.julday.Neq.oldV, benchmarks.caldat.caldatProgram.Eq.newV, benchmarks.caldat.caldatProgram.Eq.oldV, benchmarks.caldat.caldatProgram.Neq.newV, benchmarks.caldat.caldatProgram.Neq.oldV, benchmarks.caldat.badluk.Eq.newV, benchmarks.caldat.badluk.Eq.oldV, benchmarks.caldat.badluk.Neq.newV, benchmarks.caldat.badluk.Neq.oldV, benchmarks.caldat.caldat.Eq.newV, benchmarks.caldat.caldat.Eq.oldV, benchmarks.caldat.caldat.Neq.newV, benchmarks.caldat.caldat.Neq.oldV, benchmarks.caldat.flmoon.Eq.newV, benchmarks.caldat.flmoon.Eq.oldV, benchmarks.caldat.flmoon.Neq.newV, benchmarks.caldat.flmoon.Neq.oldV );
+    }
+    ran = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.ran.poidev.Eq.newV, benchmarks.ran.poidev.Eq.oldV, benchmarks.ran.poidev.Neq.newV, benchmarks.ran.poidev.Neq.oldV, benchmarks.ran.ranthree.Eq.newV, benchmarks.ran.ranthree.Eq.oldV, benchmarks.ran.ranthree.Neq.newV, benchmarks.ran.ranthree.Neq.oldV, benchmarks.ran.expdev.Eq.newV, benchmarks.ran.expdev.Eq.oldV, benchmarks.ran.expdev.Neq.newV, benchmarks.ran.expdev.Neq.oldV, benchmarks.ran.gamdev.Eq.newV, benchmarks.ran.gamdev.Eq.oldV, benchmarks.ran.gamdev.Neq.newV, benchmarks.ran.gamdev.Neq.oldV, benchmarks.ran.bnldev.Eq.newV, benchmarks.ran.bnldev.Eq.oldV, benchmarks.ran.bnldev.Neq.newV, benchmarks.ran.bnldev.Neq.oldV, benchmarks.ran.ranzero.Eq.newV, benchmarks.ran.ranzero.Eq.oldV, benchmarks.ran.ranzero.Neq.newV, benchmarks.ran.ranzero.Neq.oldV, benchmarks.ran.ran.Eq.newV, benchmarks.ran.ran.Eq.oldV, benchmarks.ran.ran.Neq.newV, benchmarks.ran.ran.Neq.oldV, benchmarks.ran.ranwo.Eq.newV, benchmarks.ran.ranwo.Eq.oldV, benchmarks.ran.ranwo.Neq.newV, benchmarks.ran.ranwo.Neq.oldV, benchmarks.ran.gammln.Eq.newV, benchmarks.ran.gammln.Eq.oldV, benchmarks.ran.gammln.Neq.newV, benchmarks.ran.gammln.Neq.oldV, benchmarks.ran.gasdev.Eq.newV, benchmarks.ran.gasdev.Eq.oldV, benchmarks.ran.gasdev.Neq.newV, benchmarks.ran.gasdev.Neq.oldV, benchmarks.ran.ranone.Eq.newV, benchmarks.ran.ranone.Eq.oldV, benchmarks.ran.ranone.Neq.newV, benchmarks.ran.ranone.Neq.oldV );
+    }
+    gam = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.gam.expint.Eq.newV, benchmarks.gam.expint.Eq.oldV, benchmarks.gam.expint.Neq.newV, benchmarks.gam.expint.Neq.oldV, benchmarks.gam.gser.Eq.newV, benchmarks.gam.gser.Eq.oldV, benchmarks.gam.gser.Neq.newV, benchmarks.gam.gser.Neq.oldV, benchmarks.gam.betacf.Eq.newV, benchmarks.gam.betacf.Eq.oldV, benchmarks.gam.betacf.Neq.newV, benchmarks.gam.betacf.Neq.oldV, benchmarks.gam.betai.Eq.newV, benchmarks.gam.betai.Eq.oldV, benchmarks.gam.betai.Neq.newV, benchmarks.gam.betai.Neq.oldV, benchmarks.gam.erfcc.Eq.newV, benchmarks.gam.erfcc.Eq.oldV, benchmarks.gam.erfcc.Neq.newV, benchmarks.gam.erfcc.Neq.oldV, benchmarks.gam.factrl.Eq.newV, benchmarks.gam.factrl.Eq.oldV, benchmarks.gam.factrl.Neq.newV, benchmarks.gam.factrl.Neq.oldV, benchmarks.gam.factln.Eq.newV, benchmarks.gam.factln.Eq.oldV, benchmarks.gam.factln.Neq.newV, benchmarks.gam.factln.Neq.oldV, benchmarks.gam.gammp.Eq.newV, benchmarks.gam.gammp.Eq.oldV, benchmarks.gam.gammp.Neq.newV, benchmarks.gam.gammp.Neq.oldV, benchmarks.gam.gam.Eq.newV, benchmarks.gam.gam.Eq.oldV, benchmarks.gam.gam.Neq.newV, benchmarks.gam.gam.Neq.oldV, benchmarks.gam.gammq.Eq.newV, benchmarks.gam.gammq.Eq.oldV, benchmarks.gam.gammq.Neq.newV, benchmarks.gam.gammq.Neq.oldV, benchmarks.gam.ei.Eq.newV, benchmarks.gam.ei.Eq.oldV, benchmarks.gam.ei.Neq.newV, benchmarks.gam.ei.Neq.oldV, benchmarks.gam.gcf.Eq.newV, benchmarks.gam.gcf.Eq.oldV, benchmarks.gam.gcf.Neq.newV, benchmarks.gam.gcf.Neq.oldV );
+    }
+    tsafe = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.tsafe.normAngle.Eq.newV, benchmarks.tsafe.normAngle.Eq.oldV, benchmarks.tsafe.normAngle.Neq.newV, benchmarks.tsafe.normAngle.Neq.oldV, benchmarks.tsafe.snippet.Eq.newV, benchmarks.tsafe.snippet.Eq.oldV, benchmarks.tsafe.snippet.Neq.newV, benchmarks.tsafe.snippet.Neq.oldV, benchmarks.tsafe.conflict.Eq.newV, benchmarks.tsafe.conflict.Eq.oldV, benchmarks.tsafe.conflict.Neq.newV, benchmarks.tsafe.conflict.Neq.oldV, benchmarks.tsafe.tsafe.Eq.newV, benchmarks.tsafe.tsafe.Eq.oldV, benchmarks.tsafe.tsafe.Neq.newV, benchmarks.tsafe.tsafe.Neq.oldV );
+    }
+    tcas = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.tcas.NonCrossingBiasedClimb.Eq.newV, benchmarks.tcas.NonCrossingBiasedClimb.Eq.oldV, benchmarks.tcas.NonCrossingBiasedClimb.Neq.newV, benchmarks.tcas.NonCrossingBiasedClimb.Neq.oldV, benchmarks.tcas.NonCrossingBiasedDescend.Eq.newV, benchmarks.tcas.NonCrossingBiasedDescend.Eq.oldV, benchmarks.tcas.NonCrossingBiasedDescend.Neq.newV, benchmarks.tcas.NonCrossingBiasedDescend.Neq.oldV, benchmarks.tcas.altseptest.Eq.newV, benchmarks.tcas.altseptest.Eq.oldV, benchmarks.tcas.altseptest.Neq.newV, benchmarks.tcas.altseptest.Neq.oldV, benchmarks.tcas.tcas.Eq.newV, benchmarks.tcas.tcas.Eq.oldV, benchmarks.tcas.tcas.Neq.newV, benchmarks.tcas.tcas.Neq.oldV );
+    }
+    REVE = 
+    {
+        src = /var/benchmarks/projects/eq-bench/src;
+        classpath = (  );
+        bin = /var/benchmarks/projects/eq-bench/classes;
+        classes = ( benchmarks.REVE.ackermann.Eq.newV, benchmarks.REVE.ackermann.Eq.oldV, benchmarks.REVE.ackermann.Neq.newV, benchmarks.REVE.ackermann.Neq.oldV, benchmarks.REVE.mccarthy91.Eq.newV, benchmarks.REVE.mccarthy91.Eq.oldV, benchmarks.REVE.barthe2.Eq.newV, benchmarks.REVE.barthe2.Eq.oldV, benchmarks.REVE.loop3.Eq.newV, benchmarks.REVE.loop3.Eq.oldV, benchmarks.REVE.triangular.Eq.newV, benchmarks.REVE.triangular.Eq.oldV, benchmarks.REVE.nestedwhile.Eq.newV, benchmarks.REVE.nestedwhile.Eq.oldV, benchmarks.REVE.nestedwhile.Neq.newV, benchmarks.REVE.nestedwhile.Neq.oldV, benchmarks.REVE.loop5.Eq.newV, benchmarks.REVE.loop5.Eq.oldV, benchmarks.REVE.loop5.Neq.newV, benchmarks.REVE.loop5.Neq.oldV, benchmarks.REVE.loop2.Eq.newV, benchmarks.REVE.loop2.Eq.oldV, benchmarks.REVE.simpleloop.Eq.newV, benchmarks.REVE.simpleloop.Eq.oldV, benchmarks.REVE.digits10.Eq.newV, benchmarks.REVE.digits10.Eq.oldV, benchmarks.REVE.limit1.Eq.newV, benchmarks.REVE.limit1.Eq.oldV, benchmarks.REVE.limit1.Neq.newV, benchmarks.REVE.limit1.Neq.oldV, benchmarks.REVE.barthe2big.Eq.newV, benchmarks.REVE.barthe2big.Eq.oldV, benchmarks.REVE.bug15.Eq.newV, benchmarks.REVE.bug15.Eq.oldV, benchmarks.REVE.barthe2big2.Eq.newV, benchmarks.REVE.barthe2big2.Eq.oldV, benchmarks.REVE.addhorn.Eq.newV, benchmarks.REVE.addhorn.Eq.oldV, benchmarks.REVE.addhorn.Neq.newV, benchmarks.REVE.addhorn.Neq.oldV, benchmarks.REVE.barthe.Eq.newV, benchmarks.REVE.barthe.Eq.oldV, benchmarks.REVE.barthe.Neq.newV, benchmarks.REVE.barthe.Neq.oldV, benchmarks.REVE.triangularMod.Eq.newV, benchmarks.REVE.triangularMod.Eq.oldV, benchmarks.REVE.triangularMod.Neq.newV, benchmarks.REVE.triangularMod.Neq.oldV, benchmarks.REVE.limit2.Eq.newV, benchmarks.REVE.limit2.Eq.oldV, benchmarks.REVE.limit2.Neq.newV, benchmarks.REVE.limit2.Neq.oldV, benchmarks.REVE.inlining.Eq.newV, benchmarks.REVE.inlining.Eq.oldV, benchmarks.REVE.inlining.Neq.newV, benchmarks.REVE.inlining.Neq.oldV, benchmarks.REVE.limit3.Eq.newV, benchmarks.REVE.limit3.Eq.oldV, benchmarks.REVE.loop.Eq.newV, benchmarks.REVE.loop.Eq.oldV, benchmarks.REVE.average.Eq.newV, benchmarks.REVE.average.Eq.oldV, benchmarks.REVE.whileif.Eq.newV, benchmarks.REVE.whileif.Eq.oldV );
+    }
 }
